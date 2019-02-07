@@ -1,6 +1,6 @@
 # Week 1
 
-Welcome to the Stat 418:Tools in Data Science! Of course the syllabus is on the [main page](https://github.com/natelangholz/stat418-tools-in-datascience) of this repo.
+Welcome to the Stat 418:Tools in Data Science! The syllabus is on the [main page](https://github.com/natelangholz/stat418-tools-in-datascience) of this repo.
 
 ## Week Overview
 
