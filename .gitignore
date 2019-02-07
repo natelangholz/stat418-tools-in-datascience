@@ -1,4 +1,5 @@
 # History files
+*.Rproj
 .Rhistory
 .Rapp.history
 
@@ -15,7 +16,7 @@
 /*.Rcheck/
 
 # RStudio files
-.Rproj.user/
+*.Rproj.user/
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +35,4 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
