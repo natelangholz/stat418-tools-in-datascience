@@ -5,6 +5,8 @@ Welcome to the Stat 418: Tools in Data Science! The syllabus is on the [main pag
 ## Week Overview
 
 This week will see an introduction to the course. There will be class introductions of myself and you all!
+
+We will also start by installing Docker and forking this repo in from Github.
   
 ## Resources
   
