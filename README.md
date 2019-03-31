@@ -16,7 +16,7 @@ Other important deadlines and dates during the term are:
 
 ## Resources
 
-Papers will be posted in the corresponding weekly directory.
+Papers will be posted in the corresponding weekly directory. There is no textbook.
 
 ## Evaluation
 
@@ -24,7 +24,8 @@ Papers will be posted in the corresponding weekly directory.
 
 Working on actual problems is central to learning. Four problem sets will be assigned, on alternating weeks. These assignments will consist of analytical problems, computer simulations, and data analysis. Late submissions will not be accepted. Assignment will generally be made available by Tuesdays and due two Tuesdays later prior to lecture. All sufficiently attempted homework (ie. a typed and well organized write-up with all problems attempted) will be graded on a (+,✓,-) scale. Students are encouraged to discuss the problems together, but must independently produce and submit solutions. Work should be done as a RMarkdown file or a Jupyter notebook and committed to GitHub. 
 
+### Final Project
 
-
+A final project will be completed as individuals. The project will encourage collaboration, test your predictive modeling skills, promote presenting skills, and promote creativity. In addition, each individual will also present their work to the class during the final week of the quarter. Effective verbal communication is a critical skill for data scientist, and it requires practice and feedback to develop. Additional information about the final project will given as the course progresses.
 
 
