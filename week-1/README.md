@@ -10,6 +10,11 @@ We will also start by installing Docker and forking this repo from Github.
   
 ## Resources
 
+Week 1 slides and some readings that are of interest.
+
+[slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-1/slides-week-1.pdf)
+
+
 [A Taxonomy of Data Science](http://www.dataists.com/2010/09/a-taxonomy-of-data-science/), Hilary Mason and Chris Wiggins
   
 [Elements and Priciples of Data Analysis](https://arxiv.org/pdf/1903.07639v1.pdf),Stephanie Hicks and Roger Peng
