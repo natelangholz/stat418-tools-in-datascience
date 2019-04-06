@@ -8,24 +8,24 @@ This week we will talk about the Unix operating system. So that we all are using
 
 First we need to pull the image using the follwing:
 
-docker pull datascienceworkshops/data-science-at-the-command-line
+`docker pull datascienceworkshops/data-science-at-the-command-line`
 
 Then to run the image
 
-docker run --rm -it datascienceworkshops/data-science-at-the-command-line
+`docker run --rm -it datascienceworkshops/data-science-at-the-command-line`
 
 To leave the environment simply type `exit`
 
 Now to mount your local directory as a volume using the following commands
 
-Mac
-docker run --rm -it -v`pwd`:/data datascienceworkshops/data-science-at-the-command-line
+On a Mac:
+`docker run --rm -it -v`pwd`:/data datascienceworkshops/data-science-at-the-command-line`
 
-Windows command line
-docker run --rm -it -v %cd%:/data datascienceworkshops/data-science-at-the-command-line
+In Windows command line
+`docker run --rm -it -v %cd%:/data datascienceworkshops/data-science-at-the-command-line`
 
-Windows powershell
-docker run --rm -it -v ${PWD}:/data datascienceworkshops/data-science-at-the-command-line
+In Windows powershell
+`docker run --rm -it -v ${PWD}:/data datascienceworkshops/data-science-at-the-command-line`
   
 ## Resources
 
@@ -33,4 +33,4 @@ This Docker Image for the Unix environment we will use as a class came from this
 
 [Data Science at the Command Line](https://www.datascienceatthecommandline.com/index.html) by Jeroen Janssens.
 
-We won't be using all the resources from this book nor going through all the chapters but I suggest doing so outside of this course. They are valuable tools
+We won't be using all the resources from this book nor going through all the chapters but I suggest doing so outside of this course. They are valuable tools that will only improve your productivity as a Data Scientist.
