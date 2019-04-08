@@ -1,6 +1,6 @@
 # Week 2
 
-Unix command line
+To introduce the shell means to have a discussion about the structure of the computer, operating systems, file systems and history. The shell offers programmatic access to a computer’s underlying parts, providing the ability to “do” data analysis on directories, on processes, and on their networks. 
 
 ## Week Overview
 
