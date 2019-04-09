@@ -1,12 +1,10 @@
 # Week 2
 
-Discuss some github
+Discuss docker a bit more and some implementation. Discuss some GitHub.
 
 To introduce the shell means to have a discussion about the structure of the computer, operating systems, file systems and history. The shell offers programmatic access to a computer’s underlying parts, providing the ability to “do” data analysis on directories, on processes, and on their networks. 
 
 ## Week Overview
-
-
 
 This week we will talk about the Unix operating system. So that we all are using the same environment we will use a Docker Image for the book [Data Science at the Command Line](https://www.datascienceatthecommandline.com/index.html) by Jeroen Janssens. 
 
@@ -32,6 +30,10 @@ In Windows powershell
 `docker run --rm -it -v ${PWD}:/data datascienceworkshops/data-science-at-the-command-line`
   
 ## Resources
+
+
+
+-----
 
 Some Git resources
 
