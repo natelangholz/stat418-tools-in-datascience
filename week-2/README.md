@@ -31,7 +31,7 @@ In Windows powershell
   
 ## Resources
 
-Slides
+[Slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-2/slides-week-2.pdf)
 
 -----
 
