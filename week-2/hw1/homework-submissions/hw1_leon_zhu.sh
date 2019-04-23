@@ -2,7 +2,7 @@
 
 # 1)
 echo "Question 1"
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | grep -v " 404 " | cut -d" " -f11 | sort | uniq -c | sort -r | head -n 10
+curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | awk '$9 != 404' | awk '{print $11}' | sort | uniq -c | sort -r | head -n 10
 # 28332 "-"
 # 10133 "http://users.csc.tntech.edu/~mjkosa/"
 # 3609
@@ -17,7 +17,7 @@ echo " "
 
 # 2)
 echo "Question 2"
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | grep -v " 404 " | cut -d" " -f7 | sort | uniq -c | sort -r | head -n 10
+curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | awk '$9 != 404' | awk '{print $7}' | sort | uniq -c | sort -r | head -n 10
 # 1724 /~mjkosa/
 # 1399 /~mjkosa/MarthaLeeds.jpg
 # 1395 /~mjkosa/computerscience.jpg
@@ -32,7 +32,7 @@ echo " "
 
 # 3)
 echo "Question 3"
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | grep -v " 404 " | cut -d" " -f12 | sort | uniq -c | sort -r | head -n 10
+curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | awk '{print $12}' | sort | uniq -c | sort -r | awk '{print $1/227574, $0}' |head -n 10
 # 52942 "Mozilla/5.0
 # 46291 "Mozilla/4.0
 # 5078 "sogou
@@ -47,13 +47,13 @@ echo " "
 
 # 4)
 echo "Question 4"
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | grep " 404 " | wc -l
+curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | awk '$9 == 404' | wc -l
 # 19099
 echo " "
 
 # 5)
 echo "Question 5"
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | grep " 500 " | wc -l
+curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | awk '$9 == 500' | wc -l
 echo " "
 # 66
 
