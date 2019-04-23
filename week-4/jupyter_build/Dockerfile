@@ -33,4 +33,7 @@ WORKDIR /home/dev
 USER dev
 
 # Run the app we want to run. In this case, jupyter lab.
-CMD jupyter lab --ip=0.0.0.0
+#CMD jupyter lab --ip=0.0.0.0
+
+# Run the app we want to run. In this case, jupyter lab.
+CMD jupyter notebook --ip=0.0.0.0

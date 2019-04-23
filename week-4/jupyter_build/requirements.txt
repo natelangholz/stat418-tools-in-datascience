@@ -11,3 +11,7 @@ matplotlib
 bs4
 seaborn
 datetime
+networkx
+praw
+nltk
+python-twitter
