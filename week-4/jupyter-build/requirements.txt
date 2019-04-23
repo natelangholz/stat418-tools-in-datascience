@@ -1,0 +1,13 @@
+scipy
+numpy
+scikit-learn
+jupyter
+jupyterlab
+tqdm
+requests
+pillow
+pandas
+matplotlib
+bs4
+seaborn
+datetime
