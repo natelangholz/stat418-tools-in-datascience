@@ -2,6 +2,12 @@
 *.Rproj
 .Rhistory
 .Rapp.history
+*.DS_Store
+*.key
+*.ipython
+*.jupyter
+*.local
+*.ipynb_*
 
 # Session Data files
 .RData

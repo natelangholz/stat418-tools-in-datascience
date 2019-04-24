@@ -32,24 +32,24 @@ A final project will be completed as individuals. The project will encourage col
 
 ## Course Topics
 
-[Week 1]() \[4/2\]: Introduction to course and each other. Overview of Data Science `tools`. Introduction and installation of Docker. 
+[Week 1](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-1) \[4/2\]: Introduction to course and each other. Overview of Data Science `tools`. Introduction and installation of Docker. 
 
-[Week 2]() \[4/9\]: Data Science in the command line. Learning about Unix. Reproducible research/work through git/Github and Docker.
+[Week 2](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-2) \[4/9\]: Data Science in the command line. Learning about Unix. Reproducible research/work through git/Github and Docker.
 
-[Week 3]() \[4/16\]: Analytical databases, SQL, NoSQL databases, MongoDB. Accessing databases through R(dbplyr) and Python(SQL Alchemy) 
+[Week 3](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-3) \[4/16\]:  More Data Science in the command line. Analytical databases, SQL, NoSQL databases, MongoDB. Accessing databases through R(dbplyr) and Python(SQL Alchemy) 
 
-[Week 4]() \[4/23\]: Acquiring data through APIs and web-scraping. Rvest and Beautiful Soup in Python.
+[Week 4](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-4) \[4/23\]: Acquiring data through APIs and web-scraping. Rvest and Beautiful Soup in Python.
 
-[Week 5]() \[4/30\]: Tools for data visualization: ggplot2, shiny (interactive web applications with R) / shiny dashboards and plotly. 
+[Week 5](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-5) \[4/30\]: Tools for data visualization: ggplot2, shiny (interactive web applications with R) / shiny dashboards and plotly. 
 
-[Week 6]() \[5/7\]: Machine Learning libraries in both R and Python. Introduction to deep learning and AutoML.
+[Week 6](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-6) \[5/7\]: Final Project proposal presentations. Machine Learning libraries in both R and Python. Introduction to deep learning and AutoML.
 
-[Week 7]() \[5/14\]: Continuation of Machine Learning libraries with use of cloud services. Introduction to NLP libraries.
+[Week 7](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-7) \[5/14\]: Continuation of Machine Learning libraries with use of cloud services. Introduction to NLP libraries.
 
-[Week 8]() \[5/21\]: Building APIs for model deployment. Exploration of Plumber (R) and Flask or Falcon (Python)  
+[Week 8](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-8) \[5/21\]: Building APIs for model deployment. Exploration of Plumber (R) and Flask or Falcon (Python)  
 
-[Week 9]() \[5/28\]: Continuation of API construction for model deployment. Buildling a Slackbot.
+[Week 9](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-9) \[5/28\]: Continuation of API construction for model deployment. Buildling a Slackbot.
 
-[Week 10]() \[6/4\]: Student Final Presentations. 
+[Week 10](https://github.com/natelangholz/stat418-tools-in-datascience/tree/master/week-10) \[6/4\]: Student Final Presentations. 
 
 
