@@ -23,15 +23,19 @@ Now to mount your local directory as a volume using the following commands
 On a Mac:
 `docker run --rm -it -v`pwd`:/data datascienceworkshops/data-science-at-the-command-line`
 
-In Windows command line
+In Windows command line (hasn't worked)
 `docker run --rm -it -v %cd%:/data datascienceworkshops/data-science-at-the-command-line`
 
-In Windows powershell
+In Windows powershell (hasn't worked)
 `docker run --rm -it -v ${PWD}:/data datascienceworkshops/data-science-at-the-command-line`
+
+Set up [Windows Docker with local directory](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-2/Setting%20up%20Docker%20to%20Work%20with%20Local%20Files%20on%20Windows.pdf). Thanks to Kaleb for setting this up!!
+
   
 ## Resources
 
 [Slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-2/slides-week-2.pdf)
+
 
 -----
 
