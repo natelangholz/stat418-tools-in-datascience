@@ -6,7 +6,7 @@ Week 4 will take a look at running a Python Jupyter environment in Docker and We
 
 ## Resources
 
-[Slides]()
+[Slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-4/slides-week-4.pdf)
 
 Much of the notebooks and slides are adaptations from this [University of Colorado mini-course](https://github.com/CU-ITSS/Web-Data-Scraping-S2019)
 
