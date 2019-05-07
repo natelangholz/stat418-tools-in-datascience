@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+    jupyter:
+        build:
+            context: .
+        image: dockerjupyter
+        volumes:
+            - ../:/home/dev/
+        ports:
+            - 8888:8888
+ 
