@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 
-data = pd.read_csv("kc_house_data.csv")
+data = pd.read_csv("scripts/kc_house_data.csv")
 
 labels = data['price']
 conv_dates = [1 if values == 2014 else 0 for values in data.date ]
