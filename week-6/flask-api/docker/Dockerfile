@@ -1,14 +1,26 @@
-FROM ubuntu:16.04
+# Build this image on a Python 3.7.1 image
+FROM python:3.7.1
+
+# Make the default shell bash
+ENV SHELL=/bin/bash
+
+# Update apt and install some bare essentials
+RUN apt-get update && \
+    apt-get install -y vim \
+                    emacs \
+                    nano \
+                    wget \
+                    curl \
+                    sudo
 
 
-RUN apt -y update &&\
-    apt -y install python3 python3-pip
+# Upgade pip
+RUN pip install --upgrade pip
 
-RUN python3 -m pip install --upgrade pip
+# Copy requirements.txt in so that pip can access it
+COPY requirements.txt /home/requirements.txt
 
+# Install the requirements.txt
+RUN pip install -r /home/requirements.txt
 
-ADD ./requirements.txt /
-RUN python3 -m pip install -r requirements.txt
-
-# ADD ../scripts /
-ENTRYPOINT ["bash","/scripts/start_flask.sh"]
+ENTRYPOINT ["python3","/scripts/server.py"]
