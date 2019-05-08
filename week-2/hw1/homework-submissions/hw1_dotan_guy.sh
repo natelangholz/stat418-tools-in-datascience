@@ -79,14 +79,15 @@ echo  ' '
 # 7. Is the traffic "real" or mostly the result of robots or automated processes?
 echo '... Q7: is the traffic "real" or from bots? ...'
 echo ' ' 
-echo ' number of robots'
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - |    
+n=($(curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - | 
+	wc -l))																		# number of lines with 'bot' (ignore case)
+b=($(curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - |    
 	grep -i 'bot' |																
-	wc -l 					  												    # number of lines with 'bot' (ignore case)
-echo ' number of normal traffic'
-curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - |    
+	wc -l)) 					  												# number of lines with 'bot' (ignore case)
+r=($(curl -s http://users.csc.tntech.edu/~elbrown/access_log.bz2 | bunzip2 - |    
 	grep -v -i 'bot' |																
-	wc -l 					  												    # number of lines without 'bot'
-echo ' '
+	wc -l)) 					  												# number of lines without 'bot'
+echo $((100*$r/$n))% of the traffic is real.
+echo $((100*$b/$n))% of the traffic is the result of robots or automated processes.
 echo 'robots .... 5.9% (13807/234794)'
 echo 'real traffic .... 94.1%  (220987/234794)'
