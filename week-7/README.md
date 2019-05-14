@@ -9,3 +9,6 @@ This week is a continuation of last week. The goal is to take our locally deploy
 [Slides]()
 
 -----
+
+
+[Microsoft Getting Built in Linux](https://www.zdnet.com/article/windows-10-is-getting-a-microsoft-built-linux-kernel/) - this anouncement comes at a fitting time in regards to this course. 
