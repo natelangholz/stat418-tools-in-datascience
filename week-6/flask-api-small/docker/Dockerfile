@@ -14,7 +14,7 @@ RUN apt-get update && \
                     sudo
 
 
-# Upgrade pip
+# Upgade pip
 RUN pip install --upgrade pip
 
 # Copy requirements.txt in so that pip can access it
