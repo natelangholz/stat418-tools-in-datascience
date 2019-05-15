@@ -16,3 +16,4 @@ praw
 nltk
 python-twitter
 lxml
+seaborn
