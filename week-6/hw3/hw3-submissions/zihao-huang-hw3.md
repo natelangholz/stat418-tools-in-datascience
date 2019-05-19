@@ -1,1 +1,0 @@
-[Zihao Justin Huang - Homework 3](https://github.com/JustinFightOn/Mtcars-Flask-Api)
