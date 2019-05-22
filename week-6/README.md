@@ -8,9 +8,13 @@ In the second part of the class, once the presentations are complete, there will
 
 ## Resources
 
-[Slides]()
+A few slides about APIs and Flask. 
+
+[Slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-6/slides-week-6.pdf)
 
 -----
+
+Some reading that is fitting for this week. Read if/when you have some free time. 
 
 [Hiring a Data Scientist: The Good, The Bad and The Ugly - by Nisha Talagala](https://www.forbes.com/sites/cognitiveworld/2019/04/30/hiring-a-data-scientist-the-good-the-bad-and-the-ugly/), contributing to Forbes.
 
