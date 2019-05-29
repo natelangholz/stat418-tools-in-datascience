@@ -6,9 +6,10 @@ This week is a continuation of last week. The goal is to take our locally deploy
 
 ## Resources
 
-[Slides]()
+Week 7 slides to create an Amazon ec2 instance to serve your API
+
+[Slides](https://github.com/natelangholz/stat418-tools-in-datascience/blob/master/week-7/slides-week-7.pdf)
 
 -----
-
 
 [Microsoft Getting Built in Linux](https://www.zdnet.com/article/windows-10-is-getting-a-microsoft-built-linux-kernel/) - this anouncement comes at a fitting time in regards to this course. 
